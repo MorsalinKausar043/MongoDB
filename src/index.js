@@ -55,8 +55,8 @@ const codetime = async () =>{
             active : true
         })
 
-        let result = await Playlist.insertMany([ReactJs,NodeJs,MongoDB,Javascript]);
-        console.log(result);
+        // let result = await Playlist.insertMany([ReactJs,NodeJs,MongoDB,Javascript]);
+        // console.log(result);
         
     } catch (error) {
         console.log(error);
@@ -64,3 +64,6 @@ const codetime = async () =>{
 }
 
 codetime();
+
+
+module.exports = Playlist ;
